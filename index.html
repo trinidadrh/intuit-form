@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Intuit Accounts - Sign Up</title>
+</head>
+<body>
+  <header>
+    <p>Already have an Intuit account?<br/><a href="#">I forgot my user ID or password</a></p>
+    <button id="sign-in"><img src="./images/white-lock.png" alt='white lock' width="20px" height="auto"><strong>Sign In</strong></button>
+  </header>
+  <section>
+    <div id="logo">
+      <img src="./images/intuit-logo.svg" alt='Intuit logo' width="200px" height="auto">
+      <h4><img src="./images/mint.png" alt='Mint logo' width="20px" height="auto"> mint <img src="./images/quickbooks.png" alt='Quickbooks logo' width="20px" height="auto"> quickbooks <img src="./images/turbotax.png" alt='TurboTax logo' width="20px" height="auto"> turbotax</h4>
+    </div>
+  </section>
+  <section>
+    <form>
+      <fieldset>
+        <h2>Create an Intuit account</h2>
+        <p>One account for everthing Intuit, including Mint. Learn more.</p>
+        <p>Already have an account? <a href="#">Sign In</a></p>
+        <div>
+          <label for="email"><strong>Email</strong></label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="phone"><strong>Phone</strong> (recommended)</label>
+          <input type="number" id="phone" name="phone" required>
+          <span>Standard call, message, or data rates may apply.</span>
+        </div>
+        <div>
+          <label for="password"><strong>Password</strong></label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <div>
+          <button type="submit" id="submit"><img src="./images/white-lock.png" alt='white lock' width="20px" height="auto"><strong>Create Account</strong></button>
+        </div>
+        <p><i>By selecting Create Account, you agree to the <a href="#">Terms</a> and have read and acknowledge our <a href="#">Global Privacy Statement</a>.</i><br/><i><strong>Updates effective on January 10, 2022.</strong></i></p>
+      </fieldset>
+        <div id="fieldset-footer">
+          <p>Invisible reCAPTCHA by Google <a href="#"> Privacy Policy</a> and <a href="#">Terms of Use</a></p>
+        </div>
+    </form>
+  </section>
+  <section id="disclaimer">
+    <div>
+      <ul>
+        <li><a href="#">Legal</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Security</a></li>
+      </ul>
+    </div>
+    <div>
+      <p>&copy; 2022 Intuit, Inc. All right reserved. Intuit, Quickbooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.<br/>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+    </div>
+  </section>
+  <footer>
+    <a href="#">Privacy Settings</a>
+  </footer>
+</body>
+</html>
